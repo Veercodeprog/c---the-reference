@@ -1,0 +1,89 @@
+int number1 = 15; //decimal
+int number2 = 0b1111; //binary
+int number3 = 0xF; //hexadecimal
+int number4 = 017; //octal
+
+std::cout << number1 << std::endl;
+std::cout << number2 << std::endl;
+std::cout << number3 << std::endl;
+std::cout << number4 << std::endl;
+
+```
+
+- All data is represented by a bunch of grouped cells of 1s and 0s in memory.
+- As the range of your data grows , so will the number of digits you need to represent data in memory.
+- Hexadecimal system makes it a little easier for humans to handle streams of data with 1's and 0's.
+- Octal has the same goal as Hexadecimal but it is not as popular now as Hexadecimal.
+
+Data Types:-
+
+Int:- 
+stores decimals, 
+Typically occupies 4 bytes or more in  memory
+
+..
+
+variables decalaration and initialization
+
+int decalaration 
+we can also define a varible as a combination of two other variabeles .
+
+// wont compile 
+
+// double variable with a wider range of error values.
+
+int bike_count = 10;
+int truck_count = 20;
+
+int vehicle_count = bike_count + truck_count;
+
+
+
+int narrowing_conversion_assignment = 2.9;
+
+std::cout << "Bike count : " << bike_count << std::endl;
+std::cout << "Truck count : " << truck_count << std::endl;
+std::cout << "Vehicle count : " << vehicle_count << std::endl;
+std::cout << "Narrowing conversion assignment : " << narrowing_conversion_assignment << std::endl;
+
+// check the size with sizeof 
+
+std::cout << "Sizeof int : " << sizeof(int) << std::endl;
+std::cout << "Sizeof truck_count : " << sizeof(double) << std::endl;
+
+int narrowing_conversion_initialization(2.9);
+
+
+three types of initialization:-
+
+- braced initialization
+- fucntional initialization 
+- assignment initialization 
+
+
+.. 
+
+integer modifiers:-
+
+type modifiers:-
+ i.) unsigned int : bytes in memory(4) : range(0 to 4,294,967,295)
+ ii.) signed int : bytes in memory(4) : range(-2,147,483,648 to 2,147,483,647)
+
+..
+
+we can also define the int as short and long to decide the size of the variables at the time of initialisation
+
+..
+
+fractional numbers :-
+floating point numbers:
+
+..
+
+
+    :
+
+
+
+
+

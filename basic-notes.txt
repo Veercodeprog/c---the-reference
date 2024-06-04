@@ -1,0 +1,132 @@
+there are three kind of errors:-
+
+1.)Compile Time Errors
+2.)Runtime Errors 
+3.)Warnings
+
+to run our c++ code we need a compiler that generates the binary executable code from it .
+
+..
+A function needs to be defined before it is called .
+
+..
+std::cout is an object of the std::ostream class, which represents the standard output stream. The standard output stream is used to output the data being processed by the program.
+
+std::cin is an object of the std::istream class, which represents the standard input stream. The standard input stream is used to provide the input to the program.
+
+std::endl is a special value that adds a new line to the stream. It is equivalent to the '\n' character.
+
+std::cerr is an object of the std::ostream class, and it represents the standard error stream. The standard error stream is used to output the errors that occur during the execution of the program.
+
+std::clog is an object of the std::ostream class, and it represents the standard logging stream. The standard logging stream is used to output the logging information of the program.
+
+..
+c++ program execution model and memory model
+
+so our c++ code is first compiled by the compiler and then it is converted into the machine code and then it is executed by the processor .
+this binary code is loaded in memory and executed by the processor statement by statement.
+
+
+..
+
+different aspects of the C++ programming environment and its components
+
+Core Language:
+
+The Core Language refers to the fundamental features and syntax of the C++ programming language itself.
+It includes things like data types, variables, control structures (e.g., loops and conditional statements), functions, classes, and object-oriented programming constructs (such as inheritance and polymorphism).
+
+Standard Library:
+
+The Standard Library is a collection of pre-defined C++ functions and classes that provide common functionality to C++ programmers.
+It is an integral part of the C++ language standard and is available in every C++ implementation.
+The Standard Library covers a wide range of areas, including input/output operations, string manipulation, containers (like vectors, lists, and maps), algorithms (like sorting and searching), and more.
+
+Certainly! Here are some examples of commonly used components from the C++ Standard Library:
+
+Input/Output Operations:
+
+cin and cout: Standard input and output streams for console input and output.
+ifstream and ofstream: Classes for file input and output operations.
+stringstream: A class for handling string-based input and output.
+String Manipulation:
+
+std::string: A versatile class for working with strings, providing various string manipulation functions.
+std::wstring: Similar to std::string, but for wide character strings.
+Containers:
+
+std::vector: A dynamic array that can grow or shrink in size.
+std::list: A doubly-linked list.
+std::map and std::unordered_map: Associative containers that store key-value pairs (dictionary).
+std::set and std::unordered_set: Containers that store unique values.
+std::queue and std::stack: Container adaptors for implementing queues and stacks.
+Algorithms:
+
+std::sort, std::find, std::binary_search: Sorting and searching algorithms.
+std::for_each: Iterating over elements of a container.
+std::transform: Applying a function to each element of a container and storing the results in another container.
+std::accumulate: Calculating the sum of elements in a container.
+std::max_element and std::min_element: Finding the maximum and minimum elements in a range.
+std::count: Counting occurrences of a value in a container.
+Iterators:
+
+begin() and end(): Functions that return iterators pointing to the beginning and end of containers, allowing iteration over the container elements.
+std::advance: Advancing an iterator by a specified number of positions.
+std::distance: Calculating the distance between two iterators.
+Mathematics:
+
+std::abs, std::sqrt, std::sin, std::cos, std::pow, etc.: Mathematical functions for common operations.
+Memory Management:
+
+std::allocator: A template class for dynamic memory allocation.
+std::unique_ptr, std::shared_ptr, std::weak_ptr: Smart pointers for managing dynamic memory and avoiding memory leaks.
+Time and Date:
+
+std::chrono: A library for measuring time durations and points in time.
+std::time: Functions for working with timestamps.
+
+
+STL (Standard Template Library):
+
+The STL is a specific subset of the C++ Standard Library that primarily focuses on providing generic data structures and algorithms.
+It heavily relies on C++ templates to achieve genericity, meaning you can use the same data structure or algorithm with different data types without rewriting the code.
+Key components of the STL include containers (e.g., vector, list, map), iterators (for traversing containers), and algorithms (e.g., sort, find).
+
+The STL promotes code reusability and maintainability by encouraging the use of generic programming techniques.
+Containers:
+
+std::vector: A dynamic array that can store elements of any data type.
+std::list: A doubly-linked list that can hold elements of any type.
+std::map and std::unordered_map: Associative containers that can store key-value pairs of different types.
+std::set and std::unordered_set: Containers that can store unique values of various types.
+std::queue and std::stack: Container adaptors that work with elements of any type, allowing you to create queues and stacks.
+Iterators:
+
+begin() and end(): Functions that return iterators for the beginning and end of containers, allowing you to iterate through elements of different data types.
+std::advance: Advancing an iterator by a specified number of positions, regardless of the underlying container's element type.
+Algorithms:
+
+std::sort, std::find, std::binary_search: Sorting and searching algorithms that work with various data types.
+std::for_each: Applying a function to each element of a container, which can hold elements of different types.
+std::transform: Applying a function to elements of containers with different data types and storing results in other containers.
+std::accumulate: Calculating the sum of elements of different types in a container.
+std::max_element and std::min_element: Finding the maximum and minimum elements in a range of different data types.
+std::count: Counting occurrences of a value of any data type in a container.
+Function Objects (Functors):
+
+Functors are classes or objects that can be called like functions. They are often used with algorithms in the STL for customized behavior.
+Pair and Tuple:
+
+std::pair: A template class that can hold a pair of values of different types, often used in associative containers.
+std::tuple: A template class that can hold a fixed-size collection of values of different types.
+Smart Pointers:
+
+std::shared_ptr, std::unique_ptr, std::weak_ptr: Smart pointers for managing dynamic memory, which can hold objects of various types.
+Type Traits:
+
+std::is_integral, std::is_floating_point, and others: Type traits to query and manipulate types at compile-time, allowing generic code to adapt to different types.
+
+..
+
+Variable and data types in c++
+
