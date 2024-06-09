@@ -14,6 +14,9 @@
 
 #include <iostream>
 
+// the prototype of the function needs to be declared before the main
+// function.otherwise the compiler will not be able to find the function.
+
 int main() {
   // function declaration
   void print_message();
