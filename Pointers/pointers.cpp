@@ -11,7 +11,7 @@ int main() {
   int *p_int_var{&int_var};
 
   std::cout << "int_var: " << int_var << std::endl;
-  std::cout << "p_int_var(Address in memory): " << p_int_var << std::endl;
+  std::cout << "p_int_var(Address in memory): " << p_int_var << std::endl; //
   std::cout << "p_int_var(Value stored at the address): " << *p_int_var
             << std::endl;
   std::cout << "&int_var: " << &int_var << std::endl;
